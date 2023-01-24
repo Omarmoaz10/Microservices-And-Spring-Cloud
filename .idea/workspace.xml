@@ -5,89 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26788468-ebba-4ecf-8925-fbd88548b84f" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/target/classes/com/example/discoveryserver/DiscoveryServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/example/inventoryservice/service/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/test/java/com/example/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/controller/InventoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/dto/InventoryResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/model/Inventory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/repository/InventoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory-service/target/classes/com/example/inventoryservice/service/InventoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/dto/InventoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/dto/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/model/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/repo/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/OrderServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/config/WebClientConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/dto/InventoryResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/dto/OrderLineItemsDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/dto/OrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/model/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/model/OrderLineItems.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/repo/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/target/classes/com/example/orderservice/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/dto/ProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/dto/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/ProductServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/dto/ProductRequest$ProductRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/dto/ProductRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/dto/ProductResponse$ProductResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/dto/ProductResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/model/Product$ProductBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/model/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/repository/ProductRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/classes/com/example/productservice/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/surefire-reports/TEST-com.example.productservice.ProductServiceApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/surefire-reports/com.example.productservice.ProductServiceApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/target/test-classes/com/example/productservice/ProductServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discoveryserver/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +76,7 @@
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "052b0a0301d59f902d81020490e7b97d",
+    "spring.configuration.checksum": "34b79dcbf0dad1b177737a2fd4480264",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -174,7 +106,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.InventoryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.discoveryserver.DiscoveryServerApplication" />
@@ -222,6 +161,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.OrderServiceApplication" />
       <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       <item itemvalue="Spring Boot.InventoryServiceApplication" />
@@ -229,9 +169,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-        <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.InventoryServiceApplication" />
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -247,8 +187,17 @@
       <workItem from="1674299759828" duration="15623000" />
       <workItem from="1674347226313" duration="1608000" />
       <workItem from="1674348863683" duration="5983000" />
-      <workItem from="1674395308687" duration="3093000" />
+      <workItem from="1674395308687" duration="14496000" />
+      <workItem from="1674568942154" duration="2659000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1674400532066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674400532066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
