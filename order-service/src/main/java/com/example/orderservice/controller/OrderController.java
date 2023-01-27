@@ -18,21 +18,21 @@ public class OrderController {
     private final OrderService orderService;
 
 
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    @CircuitBreaker(name="inventory",fallbackMethod = "fallbackMethod")
-    @TimeLimiter(name="inventory")
-    @Retry(name = "inventory")
-    public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
-        return CompletableFuture.supplyAsync(()->orderService.placeOrder(orderRequest));
-    }
-
-
 //    @PostMapping
 //    @ResponseStatus(HttpStatus.CREATED)
-//    public String placeOrder(@RequestBody OrderRequest orderRequest) {
-//        return orderService.placeOrder(orderRequest);
+//    @CircuitBreaker(name="inventory",fallbackMethod = "fallbackMethod")
+//    @TimeLimiter(name="inventory")
+//    @Retry(name = "inventory")
+//    public CompletableFuture<String> placeOrder(@RequestBody OrderRequest orderRequest) {
+//        return CompletableFuture.supplyAsync(()->orderService.placeOrder(orderRequest));
 //    }
+
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public String placeOrder(@RequestBody OrderRequest orderRequest) {
+        return orderService.placeOrder(orderRequest);
+    }
 
     public CompletableFuture<String> fallbackMethod(RuntimeException runtimeException){
         return CompletableFuture.supplyAsync(()-> "Oops! Something went wrong, please try again later!");
